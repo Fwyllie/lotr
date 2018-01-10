@@ -1,0 +1,657 @@
+/*OUR CSS GOES HERE*/
+
+@font-face{
+	font-family: 'RingBearer';
+	src: url('../fonts/RINGM___.TTF');
+}
+@font-face{
+	font-family: 'bilbo';
+	src: url('../font/Bilbo-Regular.otf');
+}
+@font-face{
+	font-family: 'bilboSwalish';
+	src: url('../fonts/BilboSwashCaps-Regular.otf');
+}
+@font-face{
+	font-family: 'dustimo';
+	src: url('../fonts/Dustismo_Roman.ttf');
+}
+@font-face{
+	font-family: 'dustimoBold';
+	src:url('../fonts/Dustismo_Roman_Bold.ttf');
+}
+
+.clearfix:after  {
+	content: " ";
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.boxHelper
+{
+	color: #fff;
+	background-color: #000;
+	text-align:center;
+}
+
+body
+{
+	background-image: url(../images/background.png);
+	font-family: 'dustimoBold', helvetica, serif;
+}
+
+h2, h3
+{
+	text-shadow: 2px 2px 2px #000;
+}
+
+.title-bar
+{
+ 	background: none;
+	margin-bottom:10px;
+}
+
+.menu-icon::after
+{
+	background: #fff;
+	box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+}
+
+.menu-icon:hover::after
+{
+	background: #3a6e1c;
+	box-shadow: 0 7px 0 #3a6e1c, 0 14px 0 #3a6e1c;
+}
+
+.title-bar .menu-icon
+{
+	margin-right: 0;
+}
+
+#mainNav
+{
+	text-align: center;
+	list-style: none;
+	margin: 0;
+}
+
+#mainNav li a
+{
+	display:block;
+	color: #3a6e1c;
+	padding: 5px 0px;
+	font-size:2em;
+	font-family: 'bilboSwalish', script, serif;
+
+}
+
+#mainNav li
+{
+	border-bottom: 1px solid #5d5d5d;
+}
+
+#mainNav li:first-child
+{
+	border-top: 1px solid #5d5d5d;
+}
+
+#mainNav li a:hover
+{
+	color: #D4A618;
+}
+
+#logo
+{
+	width: 100%;
+	height: 100%;
+}
+
+.character
+{
+	border: 4px solid rgba(93,93,93, 0.5);
+	border-radius: 9px;
+}
+
+#mainHeader
+{
+	background-color: #000;
+}
+
+.mainContentArea
+{
+	background-image: url(../images/paperbackground.png);
+}
+
+#characterLineOne
+{
+	margin-bottom:20px;
+}
+
+#characterLineOne div, #characterLineTwo div
+{
+	margin-top: 15px;
+}
+
+#fifteen h2
+{
+	font-size: 6.875em;
+	color: #3a6e1c;
+	font-family: 'dustimoBold', helvetica, serif;
+	text-shadow: 3px 3px 5px #000;
+}
+
+sup
+{
+	font-size: .65em;
+}
+
+#anniversary
+{
+	font-size: 2.3125em;
+	text-align:center;
+	color: #3a6e1c;
+	text-shadow: 2px 2px 3px #000;
+}
+
+#promotext
+{
+	font-size:1.375em;
+	color: #000;
+	text-align:center;
+}
+
+#socialMedia
+{
+	background-color: #000;
+	padding: 10px 20px;
+}
+
+#socialMedia a img
+{
+	width: 20%;
+	height: 20%;
+	margin-left: .5em;
+	max-height: 80px;
+	max-width: 80px;
+}
+
+#socialMedia a:first-child
+{
+	margin-left: .5em;
+}
+
+#copyRight
+{
+	display: none;
+}
+
+#Mainfooter
+{
+	margin-top: 0;
+}
+
+/*CAST PAGE STARTS HERE*/
+
+
+.scrollNav
+{
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+.scrollNav a
+{
+	display: inline-block;
+	background-color: rgba(132,132,132, .5);
+	color: #000;
+	border-radius: 3px;
+	padding: 8px 10px;
+	font-size: 1.25em;
+	margin-left: 20px;
+	margin-top:20px;
+	width: 90px;
+
+}
+.scrollNav a:hover
+{
+	background-color: #3a6e1c;
+
+}
+
+#section1
+{
+	margin-top: 180px;
+}
+
+#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9
+{
+	text-align: center;
+}
+
+#section1 img, #section2 img, #section3 img, #section4 img, #section5 img, #section6 img, #section7 img, #section8 img, #section9 img
+{
+	display: block;
+	margin: 0 auto;
+	border-radius: 12px;
+	box-shadow: 5px 5px 8px #000;
+}
+
+#section1 h2, #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2, #section7 h2, #section8 h2, #section9 h2
+{
+	color: #3a6e1c;
+	font-size: 3.4375em;
+	font-family: 'bilboSwalish', script, serif;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#section1 h3, #section2 h3, #section3 h3, #section4 h3, #section5 h3, #section6 h3, #section7 h3, #section8 h3, #section9 h3
+{
+	font-size: 1.625em;
+	color: #5d5d5d;
+	font-family: 'dustimoBold', helvetica, serif;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#section1 p, #section2 p, #section3 p, #section4 p, #section5 p, #section6 p, #section7 p, #section8 p, #section9 p
+{
+	font-family: 'dustimoBold', helvetica, serif;
+	font-size: 1em;
+	color: #000;
+}
+
+#section9
+{
+	padding-bottom:20px;
+}
+
+/*PHOTOS PAGE*/
+
+#thumbnails img
+{
+	margin: 20px 0;
+	border-radius: 20px;
+}
+
+
+#mainImg{
+	border-radius: 40px;
+	padding-bottom: 20px;
+}
+
+/*FILM PAGE STARTS HERE*/
+
+#aboutFilm h2, #trailersTitle h2
+{
+	color: #3a6e1c;
+	font-size: 3.4375em;
+	font-family: 'bilboSwalish', script, serif;
+}
+
+#aboutFilm p
+{
+	font-family: 'dustimoBold', helvetica, serif;
+	font-size: 1em;
+	color: #000;
+}
+
+#trailersTitle a
+{
+	background-color: #5d5d5d;
+	color: #3a6e1c;
+	border-radius: 3px;
+	padding: 10px 15px;
+	font-size: 1.25em;
+}
+
+#chooseTrailer div
+{
+	display: inline-block;
+	background-color: rgba(87,87,87,.4);
+	width: 140px;
+	height: 40px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px;
+	padding: 5px;
+	color: #3a6e1c;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#chooseTrailer div:last-child
+{
+	margin-left: 10px;
+}
+
+#mainVideo
+{
+	max-height: auto;
+	max-width: 320px;
+}
+
+#videoPLayer
+{
+	margin-top: 20px;
+}
+
+#controls
+{
+	margin: 10px 0px 20px 0px;
+}
+
+#restart p
+{
+	background-color: rgba(87,87,87,.4);
+	color: #3a6e1c;
+	text-align: center;
+	padding: 7px 9px;
+	font-size: .75em;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 19px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #B6C1D1;
+  border-radius: 14px;
+  border: 0px solid #000000;
+  margin-top: 5px;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 18px;
+  width: 40px;
+  border-radius: 12px;
+  background: #3A6E1C;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0.5px;
+}
+
+/*REGISTER PAGE STARTS HERE*/
+#giveawayIntro {
+	padding:10px;
+}
+#giveawayIntro h2
+{
+	color: #3a6e1c;
+	font-size: 3em;
+	font-family: 'bilboSwalish', script, serif;
+}
+
+#giveawayIntro p
+{
+	font-family: 'dustimoBold', helvetica, serif;
+	font-size: 1.25em;
+	color: #000;
+}
+
+#giveawayForm input, textarea
+{
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #5d5d5d;
+}
+
+#submit
+{
+	padding: 10px 15px;
+	background-color: #D4A618;
+}
+
+#giveawayForm
+{
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#dvd
+{
+	margin-bottom:20px;
+}
+
+
+/**/
+/*MEDIA QUERIES START HERE*/
+/**/
+
+
+@media screen and (min-width: 40em){
+	#socialMedia a img
+	{
+		max-width: 60px;
+		max-height: 60px;
+	}
+
+	#socialMedia a
+	{
+		margin-left: 2em;
+	}
+
+	#socialMedia a:first-child
+	{
+		margin-left: 0;
+	}
+
+	#socialMedia
+	{
+		text-align: center;
+	}
+
+	#trailersTitle
+	{
+	margin-left: 20px;
+	}
+
+	#chooseTrailer h2
+	{
+		margin-left: 0;
+	}
+
+	#mainVideo
+	{
+	max-height: auto;
+	max-width: 640px;
+	margin-left: 20px;
+	}
+
+	#controls
+	{
+		margin-left: 20px;
+	}
+
+}
+
+
+
+@media screen and (min-width: 64em){
+
+	#logo
+	{
+		width: 150%;
+		height: 150%;
+		margin: 20px 0 20px 20px;
+	}
+
+	#mainNav
+	{
+		text-align: right;
+		margin-top: 50px;
+	}
+
+	#mainNav li
+	{
+		display: inline;
+		border-bottom: none;
+		margin-left: 15px;
+	}
+
+	#mainNav li:first-child
+	{
+		border-top: none;
+	}
+
+	#mainNav li a
+	{
+		display: inline;
+		font-size: 2.5em;
+		color: #3a6e1c;
+	}
+
+	#mainNav li a:hover
+	{
+		color: #D4A618;
+	}
+
+
+	.character
+	{
+		position: absolute;
+	}
+
+	.frodoHover, .gandalfHover, .samHover, .aragornHover, .gimliHover, .legolasHover, .boromirHover, .pippinHover
+	{
+		color: #000;
+		height: 100px;
+		line-height: 18px;
+		padding: 3px;
+		margin-top: 250px;
+		text-align: center;
+		position: relative;
+		width: 270px;
+		opacity: 0;
+	}
+
+	.frodoHover:hover, .gandalfHover:hover, .samHover:hover, .aragornHover:hover, .gimliHover:hover, .legolasHover:hover, .boromirHover:hover, .pippinHover:hover
+	{
+		opacity: 1;
+		background-color: rgba(132,132,132, .5);
+	}
+
+	.gimliHover, .legolasHover, .boromirHover, .pippinHover
+	{
+		margin-top: 200px;
+	}
+
+	.frodoHover, .samHover
+	{
+		height: 80px;
+		margin-top: 270px;
+	}
+
+	 .gimliHover, .pippinHover
+	{
+		height: 80px;
+		margin-top: 220px;
+	}
+
+	.legolasHover
+	{
+		height: 46px;
+		margin-top: 254px;
+	}
+	.boromirHover
+	{
+		height: 60px;
+		margin-top: 240px;
+	}
+	#copyRight
+	{
+		display: block;
+		color: #ffffff;
+		margin-top: 30px;
+	}
+
+	#socialMedia a
+	{
+		margin-left: .25em;
+	}
+
+	#socialMedia
+	{
+		margin-top: 0;
+	}
+
+	#socialMedia img
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	#Mainfooter
+	{
+		background-color: #000000;
+	}
+
+	#Indexfooter
+	{
+		background-color: #000000;
+	}
+
+	#section1, #section3, #section5,  #section7, #section9
+	{
+		text-align: left;
+		padding-right: 10px;
+	}
+
+	#section2, #section4, #section6, #section8
+	{
+		text-align: right;
+		padding-left: 10px;
+	}
+
+	#section1 h2, #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2, #section7 h2, #section8 h2, #section9 h2
+	{
+		margin-top:200px;
+	}
+
+	#section1
+	{
+		margin-top: 0;
+	}
+
+	#section2 h2, #section2 h3, #section2 p
+	{
+		margin-top: 0;
+	}
+
+	#viggo
+	{
+		margin-top:175px;
+	}
+
+	/*PHOTOS PAGE*/
+
+	/*FILM PAGE*/
+
+	#aboutFilm div p
+	{
+		margin-left: 20px;
+	}
+
+}
+
+@media screen and (min-width: 75em){
+	#mainNav li
+	{
+		margin-left: 30px;
+	}
+
+	#mainNav li:first-child
+	{
+		margin-left: 0px;
+	}
+
+	#mainVideo
+	{
+		max-width: 95%;
+	}
+}
